@@ -12,6 +12,14 @@ var gulp         = require('gulp'), // Подключаем Gulp
 	cache        = require('gulp-cache'), // Подключаем библиотеку кеширования
 	autoprefixer = require('gulp-autoprefixer');// Подключаем библиотеку для автоматического добавления префиксов
 
+	gulp.task('browser-sync', function() { // Создаем таск browser-sync
+	browserSync({ // Выполняем browserSync
+		server: { // Определяем параметры сервера
+			baseDir: 'src' // Директория для сервера - src
+		}
+		});
+});
+	
 gulp.task('sass', function(){ // Создаем таск Sass
 	return gulp.src('src/s*ss/**/*.s*ss') // Берем источник
 		.pipe(sass()) // Преобразуем Sass в CSS посредством gulp-sass
@@ -20,13 +28,7 @@ gulp.task('sass', function(){ // Создаем таск Sass
 		.pipe(browserSync.reload({stream: true})) // Обновляем CSS на странице при изменении
 });
 
-gulp.task('browser-sync', function() { // Создаем таск browser-sync
-	browserSync({ // Выполняем browserSync
-		server: { // Определяем параметры сервера
-			baseDir: 'src' // Директория для сервера - src
-		}
-		});
-});
+
 
 gulp.task('scripts', function() {
 	return gulp.src([ // Берем все необходимые библиотеки
