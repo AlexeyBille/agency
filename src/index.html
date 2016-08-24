@@ -61,47 +61,68 @@
 <body>
     <div class="top-header">
         <div class="container">
-            <div class="nav-tab">
+            <div class="nav-tab hidden-xs">
                 <a href="#" class="blog"><i class="fa fa-file-text-o" aria-hidden="true"></i> Blog</a>
                 <a href="#" class="jobs"><i class="fa fa-building-o" aria-hidden="true"></i> Jobs</a>
                 <a href="#" class="support"><i class="fa fa-bullhorn" aria-hidden="true"></i> Support</a>
                 <a href="#" class="arabic"><i class="fa fa-globe" aria-hidden="true"></i> Arabic</a>
             </div>
-            <div class="social">
+            <div class="social hidden-xs">
                 <a href="#" class="fa fa-google-plus"></a>
                 <a href="#" class="fa fa-instagram"></a>
                 <a href="#" class="fa fa-twitter"></a>
                 <a href="#" class="fa fa-facebook-official"></a>
             </div>
         </div>
+        <div id="container" class="hidden-sm hidden-md hidden-lg">
+            <input id="toggle" type="checkbox">
+            <label for="toggle">&equiv;</label>
+            <div class="content">
+            </div>
+            <div class="slide-menu">
+                <nav class="menu">
+                    <img src="http://placehold.it/403x93/f23467/123456?text=logo" class="img-responsive">
+                    <li><a href="#" class="blog"><i class="fa fa-file-text-o" aria-hidden="true"></i> Blog</a></li>
+                    <li><a href="#" class="jobs"><i class="fa fa-building-o" aria-hidden="true"></i> Jobs</a></li>
+                    <li><a href="#" class="support"><i class="fa fa-bullhorn" aria-hidden="true"></i> Support</a></li>
+                    <li><a href="#" class="arabic"><i class="fa fa-globe" aria-hidden="true"></i> Arabic</a></li>
+                    <li>
+                        <a href="#" class="fa fa-google-plus"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-facebook-official"></a>
+                    </li>
+                </nav>
+            </div>
+        </div>
     </div>
     <div class="header">
         <div class="container">
             <img src="http://placehold.it/403x93" alt="logo" class="logo img-responsive">
-            <div class="contacts">
+            <div class="contacts hidden-xs">
                 <div class="phone" data-description="8-800-800-80-08"><i class="fa fa-phone" aria-hidden="true"></i></div>
                 <div class="addres" data-description="Saudi Arabia, Alreaydah"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
                 <div class="mail" data-description="email@examle.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
             </div>
         </div>
-        <div class="navheader">
-            <div class="container ">
-                <a href="#" class="active">HOME</a>
-                <a href="#">What about ISAMA</a>
-                <a href="#">What we do ?</a>
-                <a href="#">Our Projects</a>
-                <a href="#">Excellent Team</a>
-                <a href="#">Contact</a>
-                <form action="" class="search">
+        <div class="navheader" id="sticker">
+            <div class="container hidden-xs hidden-sm ">
+                <a href="#section-1" class="active go_to">HOME</a>
+                <a href="#section-2" class="go_to">What about ISAMA</a>
+                <a href="#section-3" class="go_to">What we do ?</a>
+                <a href="#section-4" class="go_to">Our Projects</a>
+                <a href="#section-5" class="go_to">Excellent Team</a>
+                <a href="#section-6" class="go_to">Contact</a>
+                <form action="" class="search hidden-md hidden-xs hidden-sm">
                     <label for="search"><i class="fa fa-search" aria-hidden="true"></i></label>
                     <input type="text" placeholder="Type your search words" id="search" name="search">
                 </form>
             </div>
         </div>
     </div>
-    <section class="section-1">
+    <section class="section-1" id="section-1">
         <img src="img/make_your_business_much_better.png" alt="" class="img-responsive header-h1">
-        <div class="container">
+        <div class="container hidden-xs hidden-sm">
             <div class="carousel">
                 <a href="#" class="arrow-right">
                     <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -118,7 +139,7 @@
             </div>
         </div>
     </section>
-    <section class="section-2">
+    <section class="section-2" id="section-2">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-6 ">
@@ -145,7 +166,7 @@
         </div>
     </section>
     <img src="img/divide.png" alt="" class="img-responsive devide-img">
-    <section class="section-3 ">
+    <section class="section-3" id="section-3">
         <div class="container">
             <div class="header">
                 <div class="row">
@@ -211,443 +232,441 @@
             </div>
         </div>
     </section>
-    <section class="section-4">
+    <section class="section-4" id="section-4">
         <div class="container">
-        <div class="header ">
+            <div class="header ">
                 <div class="row">
                     <div class="col-xs-3">
                         <img src="img/icon.png" alt="" class="img-responsive">
                     </div>
                     <div class="col-xs-9">
                         <h2>Our Projects</h2>
-                        <p>Some of our awesome work Proud of doing
-great works for our clients</p>
+                        <p>Some of our awesome work Proud of doing great works for our clients</p>
                     </div>
                 </div>
             </div>
             <div class="tabs">
-            <ul class="categories ">
-                <li href="#" class="btn active">All</li>
-                <li href="#" class="btn">Mobile Apps</li>
-                <li href="#" class="btn">Identities</li>
-                <li href="#" class="btn">Interior Design</li>
-                <li href="#" class="btn">UI/UX</li>
-            </ul>
-            
-            <div class="items active">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                <ul class="categories ">
+                    <li href="#" class="btn active">All</li>
+                    <li href="#" class="btn">Mobile Apps</li>
+                    <li href="#" class="btn">Identities</li>
+                    <li href="#" class="btn">Interior Design</li>
+                    <li href="#" class="btn">UI/UX</li>
+                </ul>
+
+                <div class="items active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                        <div class="row">
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                </div>
+                <div class="items">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418/ffffff/000000" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                        <div class="row">
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418/aaaaaa/ffffff" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                        <div class="row">
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418/000000/ffffff" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418/a34123/030205" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-3">
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
+                                        <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
+                                        <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="items">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="items">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="items">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="items">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-md-3">
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-12"><img src="http://placehold.it/470x418" alt="" class="img-responsive"></div>
-                                    <div class="col-xs-6"><a href="" class="a-link"><i class="fa fa-link"></i></a></div>
-                                    <div class="col-xs-6"><a href="" class="a-plus"><i class="fa fa-plus"></i></a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-            </div>
+        </div>
     </section>
-    <section class="section-5">
-       <div class="container">
-        <div class="header">
+    <section class="section-5" id="section-5">
+        <div class="container">
+            <div class="header">
                 <div class="row">
                     <div class="col-xs-3">
                         <img src="img/icon11.png" alt="" class="img-responsive">
                     </div>
                     <div class="col-xs-9">
                         <h2>Meet Our Team</h2>
-                        <p>We have highly qualified staff with distinguished significant 
-experiences in their field who work under pressure.</p>
+                        <p>We have highly qualified staff with distinguished significant experiences in their field who work under pressure.</p>
                     </div>
                 </div>
             </div>
@@ -659,10 +678,18 @@ experiences in their field who work under pressure.</p>
                             <h3>Tamer</h3>
                             <p>Senior Software Engineer</p>
                             <div class="row">
-                                <div class="col-xs-3"><a href="" class="fa fa-facebook-official"></a></div>
-                                <div class="col-xs-3"><a href="" class="fa fa-twitter"></a></div>
-                                <div class="col-xs-3"><a href="" class="fa fa-instagram"></a></div>
-                                <div class="col-xs-3"><a href="" class="fa fa-linkedin"></a></div>
+                                <div class="col-xs-3">
+                                    <a href="" class="fa fa-facebook-official"></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="" class="fa fa-twitter"></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="" class="fa fa-instagram"></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="" class="fa fa-linkedin"></a>
+                                </div>
                             </div>
                             <div class="empty"></div>
                         </div>
@@ -673,10 +700,18 @@ experiences in their field who work under pressure.</p>
                             <h3>Tamer</h3>
                             <p>Senior Software Engineer</p>
                             <div class="row">
-                                <div class="col-xs-3"><a href="" class="fa fa-facebook-official"></a></div>
-                                <div class="col-xs-3"><a href="" class="fa fa-twitter"></a></div>
-                                <div class="col-xs-3"><a href="" class="fa fa-instagram"></a></div>
-                                <div class="col-xs-3"><a href="" class="fa fa-linkedin"></a></div>
+                                <div class="col-xs-3">
+                                    <a href="" class="fa fa-facebook-official"></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="" class="fa fa-twitter"></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="" class="fa fa-instagram"></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="" class="fa fa-linkedin"></a>
+                                </div>
                             </div>
                             <div class="empty"></div>
                         </div>
@@ -687,10 +722,18 @@ experiences in their field who work under pressure.</p>
                             <h3>Tamer</h3>
                             <p>Senior Software Engineer</p>
                             <div class="row">
-                                <div class="col-xs-3"><a href="" class="fa fa-facebook-official"></a></div>
-                                <div class="col-xs-3"><a href="" class="fa fa-twitter"></a></div>
-                                <div class="col-xs-3"><a href="" class="fa fa-instagram"></a></div>
-                                <div class="col-xs-3"><a href="" class="fa fa-linkedin"></a></div>
+                                <div class="col-xs-3">
+                                    <a href="" class="fa fa-facebook-official"></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="" class="fa fa-twitter"></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="" class="fa fa-instagram"></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="" class="fa fa-linkedin"></a>
+                                </div>
                             </div>
                             <div class="empty"></div>
                         </div>
@@ -701,10 +744,18 @@ experiences in their field who work under pressure.</p>
                             <h3>Tamer</h3>
                             <p>Senior Software Engineer</p>
                             <div class="row">
-                                <div class="col-xs-3"><a href="" class="fa fa-facebook-official"></a></div>
-                                <div class="col-xs-3"><a href="" class="fa fa-twitter"></a></div>
-                                <div class="col-xs-3"><a href="" class="fa fa-instagram"></a></div>
-                                <div class="col-xs-3"><a href="" class="fa fa-linkedin"></a></div>
+                                <div class="col-xs-3">
+                                    <a href="" class="fa fa-facebook-official"></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="" class="fa fa-twitter"></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="" class="fa fa-instagram"></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="" class="fa fa-linkedin"></a>
+                                </div>
                             </div>
                             <div class="empty"></div>
                         </div>
@@ -713,48 +764,51 @@ experiences in their field who work under pressure.</p>
             </div>
         </div>
     </section>
-    <section class="section-6">
-       <div class="container-fluid">
-        <i class="fa fa-map-marker" aria-hidden="true"></i>
-        <div class="contacts">
-                <div class="phone" data-description="8-800-800-80-08"><i class="fa fa-phone" aria-hidden="true"></i></div>
+    <section class="section-6" id="section-6">
+        <div class="container-fluid">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <div class="contacts">
                 <div class="addres" data-description="Saudi Arabia, Alreaydah"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
                 <div class="mail" data-description="email@examle.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                <div class="phone" data-description="8-800-800-80-08"><i class="fa fa-phone" aria-hidden="true"></i></div>
+
+
             </div>
-            </div>
+        </div>
     </section>
-    <footer>
+    <footer id="footer">
         <div class="container">
             <div class="row">
                 <col-xs-12 class="col-md-6">
-                   <div class="social">
-                    <a href="" class="fa fa-facebook-official"></a>
-                    <a href="" class="fa fa-twitter"></a>
-                    <a href="" class="fa fa-instagram"></a>
-                    <a href="" class="fa fa-google-plus"></a>
+                    <div class="social">
+                        <a href="" class="fa fa-facebook-official"></a>
+                        <a href="" class="fa fa-twitter"></a>
+                        <a href="" class="fa fa-instagram"></a>
+                        <a href="" class="fa fa-google-plus"></a>
                     </div>
                     <h4>&#169 Copyright 2014 - ISAMA for information technology</h4>
                 </col-xs-12>
                 <col-xs-12 class="col-md-6">
                     <form action="" class="footer-form">
-                       <div class="row">
-                       <div class="col-xs-2">
-                        <i class="fa fa-list-alt" aria-hidden="true"></i>
-                        </div>
-                        <div class="col-xs-6 col-sm-8">
-                        <input type=email id="footer-email" name="footer-email" placeholder="Enter your email for out newsletter">
-                        </div>
-                        <div class="col-sm-2 col-xs-4">
-                        <button type="submit">Join</button>
-                        </div>
+                        <div class="row">
+                            <div class="col-xs-2">
+                                <i class="fa fa-list-alt" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-xs-6 col-sm-8">
+                                <input type=email id="footer-email" name="footer-email" placeholder="Enter your email for out newsletter">
+                            </div>
+
+                            <div class="col-sm-2 col-xs-4">
+                                <button type="submit">Join</button>
+                            </div>
                         </div>
                     </form>
                     <ul class="links-footer">
                         <li><a href="#" class="link-footer">Blog</a></li>
-                    <li><a href="#" class="link-footer">Job</a></li>
-                    <li><a href="#" class="link-footer">Terms of Service</a></li>
-                    <li><a href="#" class="link-footer">Privacy</a></li>
-                    <li><a href="#" class="link-footer">Policy</a></li>
+                        <li><a href="#" class="link-footer">Job</a></li>
+                        <li><a href="#" class="link-footer">Terms of Service</a></li>
+                        <li><a href="#" class="link-footer">Privacy</a></li>
+                        <li><a href="#" class="link-footer">Policy</a></li>
                     </ul>
                 </col-xs-12>
             </div>

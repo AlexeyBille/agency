@@ -53,7 +53,8 @@ gulp.task('headersass', function() {
 gulp.task('libs', function() {
 	return gulp.src([
 		'src/libs/jquery/dist/jquery.min.js', // Берем jQuery
-		'src/libs/bootstrap/dist/js/bootstrap.min.js', // Берем Magnific Popup
+		'src/libs/bootstrap/dist/js/bootstrap.min.js', // Берем bootstrap
+		'src/libs/jquery-sticky/jquery.sticky.js', // Берем sticky
 		'src/libs/parallax.js/parallax.min.js' // Берем parallax.js
 		])
 		.pipe(concat('libs.min.js'))
@@ -104,7 +105,8 @@ gulp.task('build', ['removedist', 'buildhtml', 'imagemin', 'sass', 'libs', 'cssl
 
 	var buildCss = gulp.src([
 		'src/css/fonts.min.css',
-		'src/css/main.min.css'
+		'src/css/main.min.css',
+		'src/css/libs.min.css'
 		]).pipe(gulp.dest('dist/css'));
 
 	var buildFiles = gulp.src([

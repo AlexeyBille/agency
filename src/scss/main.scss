@@ -72,10 +72,12 @@
 
 .section-4 {
     background-image: url(../img/background_section_4.png);
+    background-repeat: round;
     text-align: center;
     .header {
         display: inline-block;
         margin-top: 50px;
+        margin-bottom: 80px;
         .col-xs-3 {
             text-align: center;
             img {
@@ -145,6 +147,7 @@
     .header {
         display: inline-block;
         margin-top: 50px;
+        margin-bottom: 80px;
         .col-xs-3 {
             text-align: center;
             img {
@@ -243,7 +246,7 @@
                 color: black;
                 position: absolute;
                 left: 20px;
-                top: -200px;
+                top: -100px;
                 margin-left: -100px;
                 background: url(../img/back.png);
                 opacity: 0;
@@ -251,8 +254,8 @@
                 width: 227px;
                 height: 61px;
                 padding: 10px;
-                font-family: openSans;
-                font-size: em(11px);
+                font-family: 'openSans';
+                font-size:em(16px);
                 font-weight: 300;
                 color: #6d6e71;
             }
@@ -363,7 +366,7 @@ a.fa-twitter:hover {
 }
 
 a.fa-instagram:hover {
-    color: #e1306c !important;
+    color:#26658e !important;
 }
 
 a.fa-linkedin:hover {
@@ -371,7 +374,8 @@ a.fa-linkedin:hover {
 }
 
 a.fa-google-plus:hover {
-    color: red !important;
+    color:#dd4070 !important;
+    
 }
 
 @import "media";
