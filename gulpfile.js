@@ -15,7 +15,15 @@
 		fileinclude    = require('gulp-file-include'),
 		gulpRemoveHtml = require('gulp-remove-html'),
 		bourbon        = require('node-bourbon'),
-		ftp            = require('vinyl-ftp');
+		ftp            = require('vinyl-ftp'),
+		htmlmin 	   = require('gulp-htmlmin');
+
+gulp.task('minify', function() {
+  return gulp.src('src/*.html')
+    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(gulp.dest('dist'));
+});
+		
 
 gulp.task('browser-sync', function() {
 	browserSync({
@@ -95,7 +103,8 @@ gulp.task('buildhtml', function() {
     .pipe(fileinclude({
       prefix: '@@'
     }))
-    .pipe(gulpRemoveHtml())
+	.pipe(htmlmin({collapseWhitespace: true}))
+	.pipe(gulpRemoveHtml())
     .pipe(gulp.dest('dist/'));
 });
 
